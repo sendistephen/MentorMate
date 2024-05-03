@@ -4,10 +4,10 @@ import ReactWrapBalancer from 'react-wrap-balancer';
 
 export default function Hero() {
   return (
-    <section className='min-h-screen flex items-center justify-center'>
-      <div className='w-full max-w-6xl px-6 sm:px-6'>
+    <section className='min-h-screen '>
+      <div className='w-full max-w-6xl mx-auto px-6 sm:px-6'>
         {/* Hero section */}
-        <div className='pt-32 pb-16 md:pt-52 md:pb-32'>
+        <div className='pt-16 pb-16 md:pt-48'>
           <div className='container mx-auto text-center'>
             <h1
               className='font-extrabold pb-4 tracking-tight text-transparent text-7xl lg:text-8xl bg-clip-text bg-gradient-to-r from-zinc-200/60  via-zinc-200 to-zinc-200/60'
